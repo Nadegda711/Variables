@@ -12,4 +12,4 @@ print(type(k_v_d_z))
 print(float(k_z_h)*60)#количество затраченных минут
 print((float(k_z_h)*60)/float(k_v_d_z))#среднее время выполнения в минутах
 print(((float(k_z_h)*60)/float(k_v_d_z))/float(h_a_s))
-print(n_c, 'всего задач: ',k_v_d_z, 'затрачено часов: ',k_z_h, 'среднее время выполнения ',(((float(k_z_h)*60)/float(k_v_d_z))/float(h_a_s)), 'часа.' )
+print(n_c,',', 'всего задач:',k_v_d_z,',', 'затрачено часов:',k_z_h,',', 'среднее время выполнения:', (((float(k_z_h)*60)/float(k_v_d_z))/float(h_a_s)), ' часа.' )
